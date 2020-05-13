@@ -1,0 +1,6 @@
+sudo npm install expo-cli --global
+expo init --npm jayHos
+npm run web
+npm install firebase --save
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view --save
