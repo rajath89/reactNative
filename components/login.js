@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, TextInput, Button, Alert, ActivityIndicator } from 'react-native';
 import firebase from '../database/firebase';
 
+import {QuesList} from './QuesList';
+
 
 export default class Login extends Component {
   
@@ -73,6 +75,7 @@ export default class Login extends Component {
           title="Signin"
           onPress={() => this.userLogin()}
         />   
+        {/* <QuesList /> */}
 
         <Text 
           style={styles.loginText}

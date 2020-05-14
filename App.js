@@ -6,9 +6,15 @@ import Login from './components/login';
 import Signup from './components/signup';
 import Dashboard from './components/dashboard';
 
+import { Container, Button, text, ListItem, Text } from "native-base";
+import Expo from "expo";
+
 const Stack = createStackNavigator();
 
 function MyStack() {
+
+
+
   return (
     <Stack.Navigator
       initialRouteName="Signup"
@@ -38,10 +44,10 @@ function MyStack() {
       <Stack.Screen 
        name="Dashboard" 
        component={Dashboard} 
-       options={
-         { title: 'Dashboard' },
-         {headerLeft: null} 
-       }
+      //  options={
+      //    //{ title: 'Dashboard' },
+      //    {headerLeft: null} 
+      //  }
       />
     </Stack.Navigator>
   );

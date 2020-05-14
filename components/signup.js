@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TextInput, Button, Alert, ActivityIndicator } from 'react-native';
 import firebase from '../database/firebase';
-
+import QuesList from './QuesList';
 
 export default class Signup extends Component {
   
@@ -88,7 +88,8 @@ export default class Signup extends Component {
           style={styles.loginText}
           onPress={() => this.props.navigation.navigate('Login')}>
           Already Registered? Click here to login
-        </Text>                          
+        </Text>
+                                 
       </View>
     );
   }

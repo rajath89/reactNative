@@ -1,0 +1,53 @@
+// export const quizData = [
+//     {
+//       id: 0,
+//       question: ` What is the Capital Of India ?`,
+//       options: [`New Delhi`, `Mumbai`, `Kolkatta`],
+//       answer: `New Delhi`
+//     },
+//     {
+//       id: 1,
+//       question: `Who is the CEO of Tesla Motors?`,
+//       options: [`Bill Gates`, `Steve Jobs`, `Elon Musk`],
+//       answer: `Elon Musk`
+//     },
+//     {
+//       id: 3,
+//       question: `Name World's Richest Man?`,
+//       options: [`Jeff Bezo`, `Bill Gates`, `Mark Zuckerberg`],
+//       answer: `Jeff Bezo`
+//     },
+//     {
+//       id: 4,
+//       question: `World's Longest River?`,
+//       options: [`River Nile`, `River Amazon`, `River Godavari`],
+//       answer: `River Nile`
+//     }
+//   ];
+export const quizData = [
+  {
+    id: 0,
+    question: ` Do you have hypertension ?`,
+    options: [`Yes`, `No`],
+    answer: `New Delhi`
+  },
+  {
+    id: 1,
+    question: `Do you have Diabetes ?`,
+    options: [`Yes`, `No`],
+    answer: `Elon Musk`
+  },
+  {
+    id: 3,
+    question: `Do you smoke?`,
+    options: [`Yes`, `No`],
+    answer: `Jeff Bezo`
+  },
+  {
+    id: 4,
+    question: `Do you have pain or discomfort in one or both arms`,
+    options: [`Yes`, `No`],
+    answer: `River Nile`
+  }
+];
+
